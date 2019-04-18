@@ -10,7 +10,7 @@ app.use(cors());
 
 // Iniciando o DB
 mongoose.connect(
-  "mongodb://localhost:27017/nodeapi",
+  "mongodb://mongo:27017/nodeapi",
   { useNewUrlParser: true }
 );
 
