@@ -8,6 +8,7 @@ const app = express();
 app.use(express.json());
 app.use(cors());
 
+// Testando o git flow
 // Iniciando o DB
 mongoose.connect(
   "mongodb://mongo:27017/nodeapi",
